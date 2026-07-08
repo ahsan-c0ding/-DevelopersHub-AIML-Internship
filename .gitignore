@@ -2,11 +2,6 @@
 # Exclude the large BERT fine-tuning model and checkpoint directory
 bert-ag-news/
 
-# Exclude auto-generated plots & figures (since they regenerate on notebook run)
-eda_overview.png
-training_curves.png
-confusion_matrix.png
-
 # Python Artifacts & Caching
 __pycache__/
 *.py[cod]
