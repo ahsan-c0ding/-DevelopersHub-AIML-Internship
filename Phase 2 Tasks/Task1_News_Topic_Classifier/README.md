@@ -119,14 +119,8 @@ Live inference from the deployed model:
 
 *(`eda_overview.png`, `training_curves.png`, and `confusion_matrix.png` are produced by
 running the notebook, re-running it will regenerate and overwrite them. The fine-tuned
-  model itself is saved to `./bert-ag-news/final/`, which is excluded from version control
-  due to its size — see `.gitignore` recommendations below.)*
-
-> **Tip:** add a `.gitignore` entry for `bert-ag-news/` before pushing to GitHub — the
-> fine-tuned checkpoint includes a ~440MB `model.safetensors` file that doesn't belong in
-> a git repo. Host it on the Hugging Face Hub or a release asset instead if you want to
-> share the weights.
-
+  model itself is saved to `./bert-ag-news/final/`)*
+  
 ## How to Run
 
 **1. Train the model** (Google Colab with a GPU runtime is recommended):
