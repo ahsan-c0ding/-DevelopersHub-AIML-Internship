@@ -1,0 +1,10 @@
+# dataset is ~360MB of images -- download it locally instead of committing it, see README
+data/Houses Dataset/
+data/*.txt
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+.venv/

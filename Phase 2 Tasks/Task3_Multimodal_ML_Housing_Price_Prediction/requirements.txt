@@ -1,0 +1,7 @@
+tensorflow-cpu
+numpy
+pandas
+scikit-learn
+matplotlib
+Pillow
+jupyter
